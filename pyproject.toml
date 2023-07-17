@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test-python-pandera"
+version = "0.1.0"
+description = ""
+authors = ["corechika <rconctmi121341@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_python_pandera"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.3"
+pandera = "^0.16.0"
+numpy = "^1.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
